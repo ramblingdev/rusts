@@ -24,6 +24,10 @@
     "./result": {
       "import": "./dist/result/index.js",
       "types": "./dist/result/index.d.ts"
+    },
+    "./iter": {
+      "import": "./dist/iter/index.js",
+      "types": "./dist/iter/index.d.ts"
     }
   },
   "scripts": {
