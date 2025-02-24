@@ -1,9 +1,5 @@
-import {
-	Command,
-	ExitStatus,
-	ExitStatusError,
-} from "../../../src/process/index.js";
-import { Err, Ok } from "../../../src/result/index.js";
+import { Command, ExitStatus, ExitStatusError } from "@/process/index.js";
+import { Err, Ok } from "@/result/index.js";
 
 describe("ExitStatus", () => {
 	const command = Command.new("echo").arg("hello");

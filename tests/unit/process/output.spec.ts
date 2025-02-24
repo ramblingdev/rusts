@@ -1,4 +1,4 @@
-import { Command, ExitStatus, Output } from "../../../src/process/index.js";
+import { Command, ExitStatus, Output } from "@/process/index.js";
 
 describe("Output", () => {
 	const command = Command.new("echo").arg("hello");

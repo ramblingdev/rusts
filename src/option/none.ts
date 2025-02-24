@@ -1,10 +1,7 @@
-import Ordering from "../cmp/Ordering.js";
+import Ordering from "@/cmp/Ordering.js";
 import { OptionBase } from "./option.js";
 import { Some } from "./some.js";
 import type { Option } from "./types.js";
-// import type { Result } from "../result/result";
-// import { err } from "../result/err";
-// import { ok } from "../result/ok";
 
 class None<T = never> extends OptionBase<T> {
 	public static readonly instance: None = new None();

@@ -1,14 +1,10 @@
 import { ChildProcess, type SpawnSyncReturns } from "node:child_process";
 import { expect } from "vitest";
-import { Iter } from "../../../src/iter/index.js";
-import { None, Some } from "../../../src/option/index.js";
-import {
-	Command,
-	ExitStatus,
-	type Options,
-	Output,
-} from "../../../src/process/index.js";
-import { ResultBase } from "../../../src/result/index.js";
+
+import { Iter } from "@/iter/index.js";
+import { None, Some } from "@/option/index.js";
+import { Command, ExitStatus, type Options, Output } from "@/process/index.js";
+import { ResultBase } from "@/result/index.js";
 
 import { expectToBeSpawnSyncReturn } from "./util.js";
 

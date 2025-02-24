@@ -1,7 +1,7 @@
 import { type SpawnOptions, spawn, spawnSync } from "node:child_process";
-import { Iter } from "../iter/index.js";
-import { None, type Option, Some } from "../option/index.js";
-import { Err, Ok, type Result } from "../result/index.js";
+import { Iter } from "@/iter/index.js";
+import { None, type Option, Some } from "@/option/index.js";
+import { Err, Ok, type Result } from "@/result/index.js";
 import { Output } from "./output.js";
 import { ExitStatus } from "./status.js";
 

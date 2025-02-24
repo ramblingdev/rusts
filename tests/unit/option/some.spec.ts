@@ -1,8 +1,5 @@
-import Ordering from "../../../src/cmp/Ordering";
-import { None, none } from "../../../src/option/none";
-// import { Ok } from "../../../src/result/ok";
-// import { Err } from "../../../src/result/err";
-import { Some, some } from "../../../src/option/some";
+import Ordering from "@/cmp/Ordering.js";
+import { Some, some, none } from "@/option/index.js";
 
 test("some() factory function", () => {
 	expect(some(1)).toBeInstanceOf(Some);

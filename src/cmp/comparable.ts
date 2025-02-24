@@ -1,7 +1,6 @@
-import type { Option } from "../option/index.js";
+import type { AbsConstructor } from "@/types/index.js";
+import type { Option } from "@/option/index.js";
 import { Ordering } from "./Ordering.js";
-
-import type { AbsConstructor } from "../types/index.js";
 
 interface Comparable<T = never> {
 	eq(other: T extends never ? this : T): boolean;

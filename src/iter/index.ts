@@ -1,5 +1,5 @@
-import { None, type Option, Some } from "../option/index.js";
-import { Err, Ok, type Result } from "../result/index.js";
+import { None, type Option, Some } from "@/option/index.js";
+import { Err, Ok, type Result } from "@/result/index.js";
 
 abstract class Iter<T> implements Iterable<T> {
 	abstract next(): Option<T>;

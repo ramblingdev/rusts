@@ -1,5 +1,5 @@
-import { Iter, Range } from "./../../../src/iter/index";
-import { None, Some } from "./../../../src/option/index";
+import { Iter, Range } from "@/iter/index.js";
+import { None, Some } from "@/option/index.js";
 
 describe("Iter", () => {
 	test("Iter.of() static method", () => {

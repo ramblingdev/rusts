@@ -1,5 +1,5 @@
 import type { spawnSync } from "node:child_process";
-import { Err, Ok, type Result } from "../result/index.js";
+import { Err, Ok, type Result } from "@/result/index.js";
 
 class ExitStatus {
 	public code: number | null;

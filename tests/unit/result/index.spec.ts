@@ -1,7 +1,7 @@
-import * as None from "../../../src/result/err";
-import * as barrel from "../../../src/result/index";
-import * as Some from "../../../src/result/ok";
-import * as Option from "../../../src/result/result";
+import * as None from "@/result/err.js";
+import * as barrel from "@/result/index.js";
+import * as Some from "@/result/ok.js";
+import * as Option from "@/result/result.js";
 
 const allKeys = Object.keys({ ...Option, ...Some, ...None });
 const allEntries = { ...Option, ...Some, ...None };

@@ -1,7 +1,5 @@
-import Ordering from "../../../src/cmp/Ordering";
-import { Err } from "../../../src/result/err";
-import { Ok, ok } from "../../../src/result/ok";
-import type { Result } from "../../../src/result/types";
+import Ordering from "@/cmp/Ordering.js";
+import { Ok, ok, Err } from "@/result/index.js";
 
 describe("Ok", () => {
 	const testOk = new Ok(1);

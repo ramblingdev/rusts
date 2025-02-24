@@ -1,5 +1,5 @@
 import { Logger } from "tslog";
-import { log, shallowCopy, deepCopy } from "../../../src/lib/index";
+import { log, shallowCopy, deepCopy } from "@/lib/index.js";
 
 describe("lib/logger", () => {
 	test("log", () => {

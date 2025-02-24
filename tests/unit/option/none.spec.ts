@@ -1,9 +1,5 @@
-import Ordering from "../../../src/cmp/Ordering";
-import { None, none } from "../../../src/option/none";
-import type { Option } from "../../../src/option/option";
-// import { Ok } from "../../../src/result/ok";
-// import { Err } from "../../../src/result/err";
-import { Some } from "../../../src/option/some";
+import Ordering from "@/cmp/Ordering.js";
+import { type Option, Some, None, none } from "@/option/index.js";
 
 describe("None", () => {
 	describe("Creation", () => {

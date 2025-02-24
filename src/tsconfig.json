@@ -1,6 +1,6 @@
 {
 	"extends": "../tsconfig.json",
-	"include": ["**/*.ts"],
+	"include": ["**/*.ts", "../local/compare.ts"],
 	"compilerOptions": {
 		"noEmit": false,
 		"outDir": "../dist",

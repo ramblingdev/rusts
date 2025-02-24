@@ -1,5 +1,5 @@
-import Ordering from "../cmp/Ordering.js";
-import { deepCopy, shallowCopy } from "../lib/utils.js";
+import Ordering from "@/cmp/Ordering.js";
+import { deepCopy, shallowCopy } from "@/lib/utils.js";
 import { ResultBase } from "./result.js";
 import type { Err, Result } from "./types.js";
 

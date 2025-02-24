@@ -1,6 +1,6 @@
-import { Iter, Range, StepBy } from "../../../src/iter/index";
-import { None, Some } from "../../../src/option";
-import { Err, Ok } from "../../../src/result";
+import { Iter, Range, StepBy } from "@/iter/index.js";
+import { None, Some } from "@/option/index.js";
+import { Err, Ok } from "@/result/index.js";
 
 describe("Range", () => {
 	test("Range.constructor()", () => {

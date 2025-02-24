@@ -1,6 +1,5 @@
-import { Ordering } from "../../../src/cmp/Ordering";
-import { Err, err } from "../../../src/result/err";
-import { Ok } from "../../../src/result/ok";
+import { Ordering } from "@/cmp/Ordering.js";
+import { Ok, Err, err } from "@/result/index.js";
 
 describe("Err", () => {
 	const testErr: Err<number, string> = new Err("Oh no!");
