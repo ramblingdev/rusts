@@ -1,4 +1,4 @@
-import { Ordering } from "@/cmp/Ordering.js";
+import { Ordering } from "@/cmp/ordering.js";
 import { Ok, Err, err } from "@/result/index.js";
 
 describe("Err", () => {

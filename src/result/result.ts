@@ -1,4 +1,4 @@
-import Ordering from "@/cmp/Ordering.js";
+import Ordering from "@/cmp/ordering.js";
 import type { Comparable } from "../cmp/comparable.js";
 import type { Err, Ok, Result } from "./types.js";
 

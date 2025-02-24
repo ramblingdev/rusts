@@ -1,4 +1,4 @@
-import Ordering from "@/cmp/Ordering.js";
+import Ordering from "@/cmp/ordering.js";
 import { Some, some, none } from "@/option/index.js";
 
 test("some() factory function", () => {

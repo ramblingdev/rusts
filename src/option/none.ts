@@ -1,4 +1,4 @@
-import Ordering from "@/cmp/Ordering.js";
+import Ordering from "@/cmp/ordering.js";
 import { OptionBase } from "./option.js";
 import { Some } from "./some.js";
 import type { Option } from "./types.js";
