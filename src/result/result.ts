@@ -1,5 +1,5 @@
 import Ordering from "@/cmp/Ordering.js";
-import type { Comparable } from "@/cmp/comparable.js";
+import type { Comparable } from "../cmp/comparable.js";
 import type { Err, Ok, Result } from "./types.js";
 
 abstract class ResultBase<T, E> implements Comparable<Result<T, E>> {
