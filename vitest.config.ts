@@ -15,6 +15,7 @@ export default defineConfig({
 				"src/option/**/*.ts",
 				"src/result/**/*.ts",
 				"src/pipe/**/*.ts",
+				"src/process/**/*.ts",
 			],
 
 			exclude: ["src/**/types/**/*.ts", "src/**/types.ts"],
