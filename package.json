@@ -28,6 +28,10 @@
     "./iter": {
       "import": "./dist/iter/index.js",
       "types": "./dist/iter/index.d.ts"
+    },
+    "./process": {
+      "import": "./dist/process/index.js",
+      "types": "./dist/process/index.d.ts"
     }
   },
   "scripts": {
