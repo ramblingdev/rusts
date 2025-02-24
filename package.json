@@ -21,7 +21,7 @@
       "import": "./dist/option/index.js",
       "types": "./dist/option/index.d.ts"
     },
-    "./option/result": {
+    "./result": {
       "import": "./dist/result/index.js",
       "types": "./dist/result/index.d.ts"
     }
