@@ -1,0 +1,13 @@
+{
+	"extends": "..",
+	"include": [
+		"**/*.ts",
+		"vitest.config.ts",
+		"../some.ts",
+		"../none.spec.ts",
+		"../local/none.spec.ts"
+	],
+	"compilerOptions": {
+		"types": ["vitest/globals"]
+	}
+}
