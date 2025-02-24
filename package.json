@@ -16,6 +16,10 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./option": {
+      "import": "./dist/option/index.js",
+      "types": "./dist/option/index.d.ts"
     }
   },
   "scripts": {
