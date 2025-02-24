@@ -13,6 +13,7 @@ export default defineConfig({
 
 			include: [
 				"src/option/**/*.ts",
+				"src/result/**/*.ts",
 			],
 
 			exclude: ["src/**/types/**/*.ts", "src/**/types.ts"],
