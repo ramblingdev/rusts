@@ -1,4 +1,4 @@
-import { type ILogObj, Logger } from "tslog";
+import { Logger } from "tslog";
 import { log, shallowCopy, deepCopy } from "../../../src/lib/index";
 
 describe("lib/logger", () => {
